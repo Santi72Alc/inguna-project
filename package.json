@@ -22,7 +22,7 @@
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "react-scripts start",
     "build": "craco build",
     "buildOLD": "react-scripts build && gulp licenses",
     "test": "react-scripts test",

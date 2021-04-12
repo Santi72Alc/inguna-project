@@ -1,5 +1,8 @@
 import React from 'react';
 
+
+
+import imgServices from 'assets/img/makeup-ojo.jpg'
 export default function Services() {
     return (
         <section className="container px-2 mx-auto">
@@ -18,21 +21,17 @@ export default function Services() {
                     <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
                         Dolor dolore aliquyam magna nonumy sed clita diam gubergren dolor kasd, erat ipsum duo sed sit ea et aliquyam, lorem voluptua voluptua diam sanctus justo. Duo tempor rebum consetetur dolor duo eos. Amet sanctus consetetur.
                                 </p>
-                    <a
-                        href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-                        className="font-bold text-gray-800 mt-8"
+                    <a className="font-bold text-gray-800 mt-8 transform hover:text-blue-500"
+                        href="#meetme"
                     >
                         Te asesoramos !!
-                                </a>
+                    </a>
                 </div>
 
                 {/* Services right */}
                 <div className="w-full md:w-6/12 px-4 pt-10 mx-auto">
                     <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg">
-                        <img alt="..."
-                            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
-                            className="w-full align-middle rounded-t-lg"
-                        />
+                        <img src={imgServices} alt="..." className="w-full align-middle rounded-t-lg " />
                         <div className="relative p-8 mb-4">
                             {/* Svg */}
                             <svg

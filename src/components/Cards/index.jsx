@@ -14,7 +14,7 @@ export default function Cards() {
                 <article className="flex flex-wrap">
 
                     {/* Card 1 */}
-                    <Card className="md:pt-12" title="Tarjeta 1" img={ojo}>
+                    <Card className="md:pt-10" title="Tarjeta 1" img={ojo}>
                         Keep you user engaged by providing meaningful
                         information. Remember that by this time, the user is
                         curious.
@@ -28,7 +28,7 @@ export default function Cards() {
                             </Card>
 
                     {/* Card 3 */}
-                    <Card className="md:pt-12" title="Verified Company">
+                    <Card className="md:pt-10" title="Verified Company">
                         Keep you user engaged by providing meaningful
                         information. Remember that by this time, the user is
                         curious.

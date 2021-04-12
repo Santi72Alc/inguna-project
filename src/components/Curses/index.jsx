@@ -2,17 +2,18 @@ import React from 'react';
 
 import CurseName from './CurseName';
 
+import imgCurse from 'assets/img/curses-makeup.jpg'
+
 export default function Curses() {
     return (
         <section className="relative bg-gray-300 pb-10" >
             <div className="container mx-auto">
                 <div className="flex flex-wrap px-4">
                     {/* Curses left (image) */}
-                    <div className="w-full md:w-4/12 pt-10 mx-auto">
-                        <img
+                    <div className="w-10/12 md:w-4/12 pt-10 mx-auto shadow-lg">
+                        <img src={imgCurse}
                             alt="..."
                             className="max-w-full rounded-lg shadow-lg"
-                            src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
                         />
                     </div>
                     {/* Curses right */}

@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Card({ img, title, className, children }) {
-    const classNameBase = "w-full lg:w-4/12 px-4 text-center transform hover:scale-110 ";
+    const classNameBase = "w-full md:w-4/12 px-4 text-center transform hover:scale-105 ";
     return (
         <div className={className ? classNameBase + className : classNameBase}>
             <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-2xl rounded-lg">

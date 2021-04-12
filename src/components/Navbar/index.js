@@ -38,7 +38,7 @@ export default function Navbar({ fixed }) {
         </div>
 
         <div id="navbar-options"
-          className={"md:flex flex-grow items-center " + (navbarOpen ? "flex justify-around" : "hidden")}
+          className={"lg:flex flex-grow items-center " + (navbarOpen ? "flex justify-around" : "hidden")}
         >
 
           <ul className="flex flex-col md:flex-row md:ml-auto list-none">
@@ -61,7 +61,7 @@ export default function Navbar({ fixed }) {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#meetus" className="hover:text-blue-700" >
+              <a href="#meetme" className="hover:text-blue-700" >
                 {/* <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i> */}
                 <span className="ml-2">Conóceme</span>
               </a>

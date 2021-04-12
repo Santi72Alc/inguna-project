@@ -5,15 +5,15 @@ export default function Footer() {
     <footer className="relative bg-gray-300 pt-8 pb-6">
       {/* Svg */}
       <div
-        className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-        style={{ height: "80px" }}
+        className="bottom-auto left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style={{ height: "80px", top: "1px" }}
       >
         <svg
           className="absolute bottom-0 overflow-hidden"
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="none"
           version="1.1"
-          viewBox="0 -1 2560 100"
+          viewBox="0 0 2560 100"
           x="0"
           y="0"
         >
@@ -41,10 +41,10 @@ export default function Footer() {
           </div>
 
           {/* RIGHT COLUMN --- Links */}
-          <div className="sm:block inline-flex w-full px-4 mt-4 justify-around ">
+          <div className="lg:flex w-full px-4 mt-4">
 
             {/* Social networks */}
-            <div className="flex sm:w-full py-5 justify-center" >
+            <div className="flex w-full py-5 justify-center" >
               <button role="link"
                 className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
@@ -78,10 +78,10 @@ export default function Footer() {
             </div>
 
             {/* Links */}
-            <div className="flex sm:w-full w-6/12 pt-5 justify-around">
+            <div className="flex w-full pt-5 justify-between">
 
               {/* Util links */}
-              <div className="w-5/12">
+              <div className="w-5/12 mx-auto">
                 <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
                   Enlaces útiles
                 </span>

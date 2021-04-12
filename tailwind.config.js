@@ -25,7 +25,7 @@ module.exports = {
       'md': { 'min': '481px' },
       'lg': { 'min': '765px' },
       'xl': { 'min': '1280px' },
-      '2xl': { 'min': '1366' },
+      '2xl': { 'min': '1366px' },
       '3xl': { 'min': '1440px' },
     },
     extend: {},

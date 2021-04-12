@@ -3,6 +3,6 @@
 @tailwind components;
 @tailwind utilities; */
 
-@import 'tailwindcss/css/base.css';
-@import 'tailwindcss/css/components.css';
-@import 'tailwindcss/css/utilities.css';
+@import 'assets/css/tailwindcss/base.min.css';
+@import 'assets/css/tailwindcss/components.min.css';
+@import 'assets/css/tailwindcss/utilities.min.css';

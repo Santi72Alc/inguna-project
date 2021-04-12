@@ -1,4 +1,8 @@
 /* ./src/index.css */
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+@import 'tailwindcss/css/base.css';
+@import 'tailwindcss/css/components.css';
+@import 'tailwindcss/css/utilities.css';

@@ -4,7 +4,8 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "tailwindcss/tailwind.css"
-// import './index.css';
+
+import './index.css';
 
 
 

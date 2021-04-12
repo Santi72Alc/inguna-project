@@ -22,7 +22,7 @@ export default function Landing() {
                 <Header />
 
                 {/* Cards section */}
-                {/* <Cards /> */}
+                <Cards />
 
                 {/* Services section */}
                 <Separator id="services" className="pb-20" />

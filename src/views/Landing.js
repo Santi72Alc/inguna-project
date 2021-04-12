@@ -10,7 +10,8 @@ import Curses from 'components/Curses';
 import Gallery from 'components/Gallery';
 import InfoContact from 'components/Contact';
 import Header from 'components/Header';
-// import Cards from 'components/Cards';
+import Cards from 'components/Cards';
+
 
 export default function Landing() {
     return (

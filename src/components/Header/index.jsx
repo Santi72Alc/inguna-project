@@ -7,8 +7,7 @@ export default function Header() {
         <section className="relative pt-20 pb-40 flex content-center items-center justify-center" >
 
             {/* Header Image */}
-            <div
-                className="absolute top-0 w-full h-full bg-center bg-cover"
+            <div className="absolute top-0 w-full h-full bg-center bg-cover"
                 style={{
                     backgroundImage : `url(${imgHeader})`,
                     // backgroundImage : "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
@@ -19,7 +18,7 @@ export default function Header() {
 
             {/* Header Title */}
             <div className="container relative ">
-                <div className="items-center inline-block flex-wrap justify-center">
+                <div className="w-full items-center inline-block flex-wrap justify-center">
                     <div className="w-full px-4 mx-auto text-center">
                         <div className="px-2">
                             <h1 className="text-white font-semibold text-4xl md:text-6xl hover:opacity-100">

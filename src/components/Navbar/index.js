@@ -42,6 +42,12 @@ export default function Navbar({ fixed }) {
         >
 
           <ul className="flex flex-col md:flex-row md:ml-auto list-none">
+          <li className="nav-item">
+              <a href="#services" className="hover:text-blue-700" >
+                <i className="fas fa-home text-lg leading-lg text-white opacity-75"></i>
+                <span className="ml-2">Inicio</span>
+              </a>
+            </li>
             <li className="nav-item">
               <a href="#services" className="hover:text-blue-700" >
                 {/* <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i> */}

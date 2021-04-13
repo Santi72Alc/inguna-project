@@ -21,10 +21,10 @@ export default function Header() {
                 <div className="w-full items-center inline-block flex-wrap justify-center">
                     <div className="w-full px-4 mx-auto text-center">
                         <div className="px-2">
-                            <h1 className="text-white font-semibold text-4xl md:text-6xl hover:opacity-100">
-                                Inguna Spain
+                            <h1 className="text-white uppercase font-semibold text-5xl md:text-7xl hover:opacity-100">
+                                Inguna
                         </h1>
-                            <h2 className="mt-5 text-indigo-500 font-semibold text-2xl md:text-4xl">
+                            <h2 className="mt-5 text-indigo-400 font-semibold text-2xl md:text-4xl">
                                 Estilista de Mirada
                         </h2>
                             <p className="mt-4 text-lg text-gray-300 md:w-8/12 mx-auto">
